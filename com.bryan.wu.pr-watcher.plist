@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.bryan.wu.pr-watcher</string>
+
+    <!-- Points directly at the executable inside the app bundle.
+         Change the path if you install the app somewhere other than /Applications. -->
+    <key>Program</key>
+    <string>/Applications/Pr Watcher.app/Contents/MacOS/Pr Watcher</string>
+
+    <!-- Start at login -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Restart automatically if it crashes -->
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>
