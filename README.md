@@ -24,8 +24,7 @@ A macOS menu-bar app that watches a GitHub repository and notifies you when your
 python setup.py py2app
 ```
 
-This installs all dependencies automatically and produces `dist/Pr Watcher.app`.
-Zip that file and share it — **teammates don't need to build anything**. No Python installation required on the receiving end; the app is fully self-contained.
+This installs all dependencies automatically and produces `dist/Pr Watcher.app`. Double click that on your mac and you'll see the new icon shortly in your menu bar. Click that and off you go (Make sure you are authenticated on gh CLI first though!)
 
 > `build/` and `dist/` are generated artifacts and are excluded from version control.
 
